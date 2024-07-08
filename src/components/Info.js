@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from '../images/img1.png'
 import { FaPhoneAlt, FaEnvelope, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaHome } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Info = () => {
