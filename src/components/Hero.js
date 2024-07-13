@@ -1,23 +1,25 @@
 import React, { useState } from 'react'
 import CustomRoutes from '../navigation/routes';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     const menuItem = ["About Me", "Resume", "Portfolio", "Contact"]
     const [selectedItem, setSelectedItem] = useState(menuItem[0]);
 
     return (
-        <div className='w-full min-h-[80vh] bg-[#252526] shadow-md rounded-2xl mt-6 mr-10 relative'>
+        <div className='w-full min-h-min overflow-y-auto bg-[#252526] shadow-md rounded-2xl my-6 mr-10 relative'>
             <div className='h-16'>
                 <div className='absolute top-0 right-0 h-8 rounded-bl-xl rounded-tr-2xl bg-[#3e3e42] px-4 py-1'>
                     <ul className='flex gap-10 items-center justify-center'>
                         {menuItem.map((item, index) => (
                             <li key={index}>
-                                <button
-                                    className={`text-white font-md ${selectedItem === item ? 'font-semibold' : 'font-light'} trasition-all duration-150 ease-in`}
+                                <Link
+                                    to={`/${item.toLocaleLowerCase()}`}
+                                    className={`font-md ${selectedItem === item ? 'font-semibold text-[#FFCF75]' : 'font-light'} trasition-all duration-150 ease-in`}
                                     onClick={() => setSelectedItem(item)}
                                 >
                                     {item}
-                                </button>
+                                </Link>
                             </li>
                         ))}
                     </ul>

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Questrial", sans-serif;
+  }
+
 body {
     @apply bg-[#1e1e1e] text-white; /* Use any Tailwind color class */
     min-height: 100vh;  /* Ensure the background color covers the full height of the viewport */

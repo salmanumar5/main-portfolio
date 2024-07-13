@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaLaptopCode, FaMobileAlt, FaLightbulb } from 'react-icons/fa';
 import { PiPaintBrushBroadFill } from "react-icons/pi";
-import img1 from '../images/img1.png'
+import img2 from '../images/img2.png'
+import img3 from '../images/img3.png'
 
 
 const skillMenu = [
@@ -58,8 +59,8 @@ const About = () => {
                <div className='flex gap-4'>
                <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
                     <div className='flex mt-2 items-end gap-2 justify-start'>
-                        <div className='w-12 h-12 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
-                            <img src={img1} alt='IMG' />
+                        <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
+                            <img src={img2} alt='IMG' />
                         </div>
                         <div className='font-semibold'>Riyaz Khan</div>
                     </div>
@@ -69,12 +70,19 @@ const About = () => {
                 </div>
                 <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
                     <div className='flex mt-2 items-end gap-2 justify-start'>
-                        <div className='w-12 h-12 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
-                            <img src={img1} alt='IMG' />
+                        <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
+                            <img src={img3} className='' alt='IMG' />
                         </div>
                         <div className='font-semibold'>Suraj Kumar</div>
                     </div>
-                    <p className='text-xs text-gray-400 mt-2'>"Umar is a dedicated and innovative computer science student with a strong grasp of the MERN stack. Their passion for solving challenges and creating solutions is inspiring."
+                    <p className='text-xs text-gray-400 mt-2'>"Umar is a driven and creative computer science student. Their enthusiasm for tackling problems and developing innovative solutions is truly remarkable.
+
+
+
+
+
+
+"
 
                     </p>
                 </div>
