@@ -60,7 +60,7 @@ const About = () => {
                <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
                     <div className='flex mt-2 items-end gap-2 justify-start'>
                         <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
-                            <img src={img2} alt='IMG' />
+                            <img src={img3} alt='IMG' />
                         </div>
                         <div className='font-semibold'>Riyaz Khan</div>
                     </div>
@@ -71,7 +71,7 @@ const About = () => {
                 <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
                     <div className='flex mt-2 items-end gap-2 justify-start'>
                         <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
-                            <img src={img3} className='' alt='IMG' />
+                            <img src={img2} className='' alt='IMG' />
                         </div>
                         <div className='font-semibold'>Suraj Kumar</div>
                     </div>

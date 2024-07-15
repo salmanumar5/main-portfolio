@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../images/img1.png'
+// import img1 from '../images/img1.png'
 import vid1 from '../images/vid1.mp4'
 import { FaPhoneAlt, FaEnvelope, FaInstagram, FaLinkedinIn, FaHome, FaGithub } from "react-icons/fa";
 // import { Link } from 'react-router-dom';
