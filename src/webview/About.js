@@ -1,8 +1,6 @@
 import React from 'react';
 import { FaLaptopCode, FaMobileAlt, FaLightbulb } from 'react-icons/fa';
 import { PiPaintBrushBroadFill } from "react-icons/pi";
-import img2 from '../images/img2.png'
-import img3 from '../images/img3.png'
 
 
 const skillMenu = [
@@ -56,37 +54,28 @@ const About = () => {
 
             <div className='mt-8'>
                 <h3 className='text-xl font-semibold'>Testimonials</h3>
-               <div className='flex gap-4'>
-               <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
-                    <div className='flex mt-2 items-end gap-2 justify-start'>
-                        <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
-                            <img src={img3} alt='IMG' />
+                <div className='flex gap-4'>
+                    <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
+                        <div className='flex mt-2 items-end gap-2 justify-start'>
+                            <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/info%2Fimg3.png?alt=media&token=e513bb88-c293-438a-a365-520cd1dc6a3b" alt='IMG' />
+                            </div>
+                            <div className='font-semibold'>Riyaz Khan</div>
                         </div>
-                        <div className='font-semibold'>Riyaz Khan</div>
+                        <p className='text-xs text-gray-400 mt-2'>"Umar is a dedicated and innovative computer science student with a strong grasp of the MERN stack. Their passion for solving challenges and creating solutions is inspiring."
+                        </p>
                     </div>
-                    <p className='text-xs text-gray-400 mt-2'>"Umar is a dedicated and innovative computer science student with a strong grasp of the MERN stack. Their passion for solving challenges and creating solutions is inspiring."
-
-                    </p>
-                </div>
-                <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
-                    <div className='flex mt-2 items-end gap-2 justify-start'>
-                        <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
-                            <img src={img2} className='' alt='IMG' />
+                    <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
+                        <div className='flex mt-2 items-end gap-2 justify-start'>
+                            <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/info%2Fimg2.png?alt=media&token=7567e004-8e57-4d37-9c3e-6ad4c85a7721" className='' alt='IMG' />
+                            </div>
+                            <div className='font-semibold'>Suraj Kumar</div>
                         </div>
-                        <div className='font-semibold'>Suraj Kumar</div>
+                        <p className='text-xs text-gray-400 mt-2'>"Umar is a driven and creative computer science student. Their enthusiasm for tackling problems and developing innovative solutions is truly remarkable."
+                        </p>
                     </div>
-                    <p className='text-xs text-gray-400 mt-2'>"Umar is a driven and creative computer science student. Their enthusiasm for tackling problems and developing innovative solutions is truly remarkable.
-
-
-
-
-
-
-"
-
-                    </p>
                 </div>
-               </div>
             </div>
 
         </div>

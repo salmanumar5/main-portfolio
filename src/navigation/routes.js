@@ -8,6 +8,7 @@ import Contact from '../webview/Contact'
 export default function CustomRoutes() {
     return (
         <Routes>
+            <Route path="/" exact element={<About/>} />
             <Route path="/about me" exact element={<About/>} />
             <Route path="/resume" exact element={<Resume/>} />
             <Route path="/portfolio" exact element={<Portfolio/>} />

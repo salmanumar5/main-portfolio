@@ -13,7 +13,7 @@ const Layout = () => {
     return () => clearTimeout(timeout);
   }, []); 
   return (
-    <div className={`h-screen w-full flex transition-opacity duration-1000 ease-in-out ${visible ? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`h-screen w-full flex flex-col md:flex-row transition-opacity duration-1000 ease-in-out ${visible ? 'opacity-100' : 'opacity-0'}`}>
        <Info/>
        <Hero/>
 
