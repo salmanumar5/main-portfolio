@@ -4,7 +4,6 @@ import { GoDotFill } from "react-icons/go";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { IoIosDocument } from "react-icons/io";
-import resume from "../images/resume.pdf"
 
 
 const education = [
@@ -110,7 +109,7 @@ const Resume = () => {
       </div>
 
       <div className='flex justify-center items-center my-4'>
-        <a href={resume} download='Resume'>
+        <a href='https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/resume%2FumrResume11.pdf?alt=media&token=2c390662-5764-47f3-9699-25e55c78b6d7' download='Resume'>
         <div className='flex cursor-pointer items-center gap-1 justify-center bg-[#2a2a2a] p-2 rounded-xl hover:bg-[#1e1d1d]'>
           <div><IoIosDocument/></div>
           <div>Download Resume</div>

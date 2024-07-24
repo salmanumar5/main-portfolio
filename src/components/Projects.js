@@ -1,21 +1,20 @@
 import React from 'react';
-import ss1 from '../images/ss1.png';
 import Project from './Project';
 
 const Projects = () => {
   const projectList = [
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 },
-    { title: "Employee Tracker", img: ss1 }
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' }
   ];
 
   return (
