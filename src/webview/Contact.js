@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
       <div className='w-full max-w-3xl mx-auto p-4'>
         <h2 className='text-2xl font-bold mb-4'>Contact Us</h2>
-        <form className='flex flex-col'>
+        <form className='flex flex-col mx-4'>
           <label className='mb-2' htmlFor='name'>Name</label>
           <input className='mb-4 p-2 border border-gray-300 rounded w-full' type='text' id='name' name='name' />
           <label className='mb-2' htmlFor='email'>Email</label>

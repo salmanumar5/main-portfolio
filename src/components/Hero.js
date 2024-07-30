@@ -7,7 +7,7 @@ const Hero = () => {
     const [selectedItem, setSelectedItem] = useState(menuItem[0]);
 
     return (
-        <div className='w-full min-h-min overflow-visible md:overflow-y-auto bg-[#252526] shadow-md rounded-2xl my-6 mr-10 relative'>
+        <div className='w-80 md:w-full min-h-min overflow-visible md:overflow-y-auto bg-[#252526] shadow-md rounded-2xl my-6 mx-auto md:mr-10 relative'>
             <div className='h-16'>
                 <div className='absolute top-0 right-0 h-8 rounded-bl-xl rounded-tr-2xl bg-[#3e3e42] px-4 py-1'>
                     <ul className='flex gap-8 md:gap-10 items-center justify-center overflow-x-auto'>
@@ -15,7 +15,7 @@ const Hero = () => {
                             <li key={index} className='whitespace-nowrap'>
                                 <Link
                                     to={`/${item.toLowerCase()}`}
-                                    className={`font-md ${selectedItem === item ? 'font-semibold text-[#FFCF75]' : 'font-light'} transition-all duration-150 ease-in`}
+                                    className={`text-xs md:text-base ${selectedItem === item ? 'font-semibold text-[#FFCF75]' : 'font-light'} transition-all duration-150 ease-in`}
                                     onClick={() => setSelectedItem(item)}
                                 >
                                     {item}

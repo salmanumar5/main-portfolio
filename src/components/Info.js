@@ -20,7 +20,7 @@ const Info = () => {
     ];
 
     return (
-        <div className='w-96 h-[50vh] md:h-[70vh] flex flex-col justify-between bg-[#252526] shadow-lg rounded-2xl mx-4 mt-6'>
+        <div className='w-80 md:w-96 h-[70vh] md:h-[70vh] flex flex-col justify-between bg-[#252526] shadow-lg rounded-2xl mx-auto mt-6'>
             <div>
                 <div className='flex flex-col items-center justify-center mt-4'>
                     <ProfileVid/>

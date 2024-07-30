@@ -59,8 +59,8 @@ const Resume = () => {
           <div className='flex items-start text-xs gap-6 mb-4' key={index}>
             <div className='pt-[4px]'><GoDotFill /></div>
             <div>
-              <h3 className='font-semibold'>{edu.degree}</h3>
-              <p className='text-[#49494e] text-sm'>{edu.institution}</p>
+              <h3 className='text-sm font-semibold'>{edu.degree}</h3>
+              <p className='text-[#797982] text-sm'>{edu.institution}</p>
               <p className='text-[#49494e] text-sm'>{edu.graduation}</p>
             </div>
           </div>
@@ -76,8 +76,8 @@ const Resume = () => {
           <div className='flex items-start text-xs gap-6 mb-4' key={index}>
             <div className='pt-[4px]'><GoDotFill /></div>
             <div>
-              <h3 className='font-semibold'>{exp.title}</h3>
-              <p className='text-[#49494e] text-sm'>{exp.company}</p>
+              <h3 className='text-sm font-semibold'>{exp.title}</h3>
+              <p className='text-[#797982] text-sm'>{exp.company}</p>
               <p className='text-[#49494e] text-sm'>{exp.duration}</p>
               <p className='text-[#49494e] text-sm'>{exp.description}</p>
             </div>
