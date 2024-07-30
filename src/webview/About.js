@@ -11,7 +11,7 @@ const skillMenu = [
     },
     {
         icon: <FaLaptopCode size={24} className="text-[#FFCF75]" />,
-        title: 'Web Development',
+        title: 'Web Dev',
         description: 'Building responsive and functional websites using modern technologies.',
     },
     {
@@ -44,7 +44,7 @@ const About = () => {
                         <div key={index} className='bg-[#2a2a2a] p-8 rounded-lg shadow-gray-900 drop-shadow-lg hover:bg-[#252526]'>
                             <div className='flex items-center mb-2'>
                                 {skill.icon}
-                                <h4 className='text-lg text-white font-semibold ml-2'>{skill.title}</h4>
+                                <h4 className='text-xs md:text-lg text-white font-semibold ml-2'>{skill.title}</h4>
                             </div>
                             <p className='text-gray-400 text-sm'>{skill.description}</p>
                         </div>
@@ -52,10 +52,10 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='mt-8'>
-                <h3 className='text-xl font-semibold'>Testimonials</h3>
-                <div className='flex gap-4'>
-                    <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
+            <div className='my-8'>
+                <h3 className='text-xl font-semibold mb-2'>Testimonials</h3>
+                <div className='flex flex-col md:flex-row gap-4'>
+                    <div className='bg-[#2a2a2a] w-full md:w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
                         <div className='flex mt-2 items-end gap-2 justify-start'>
                             <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
                                 <img src="https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/info%2Fimg3.png?alt=media&token=e513bb88-c293-438a-a365-520cd1dc6a3b" alt='IMG' />
@@ -65,7 +65,7 @@ const About = () => {
                         <p className='text-xs text-gray-400 mt-2'>"Umar is a dedicated and innovative computer science student with a strong grasp of the MERN stack. Their passion for solving challenges and creating solutions is inspiring."
                         </p>
                     </div>
-                    <div className='bg-[#2a2a2a] w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
+                    <div className='bg-[#2a2a2a] w-full md:w-1/2 p-8 rounded-lg shadow-gray-900 drop-shadow-lg'>
                         <div className='flex mt-2 items-end gap-2 justify-start'>
                             <div className='w-12 h-auto p-2 rounded-2xl shadow-xl bg-[#3e3e42] z-10'>
                                 <img src="https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/info%2Fimg2.png?alt=media&token=7567e004-8e57-4d37-9c3e-6ad4c85a7721" className='' alt='IMG' />
