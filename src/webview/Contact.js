@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Contact = () => {
+  const [iframeLoaded, setIframeLoaded] = useState(false);
+
+  useEffect(() => {
+    const iframe = document.getElementById('map-iframe');
+    iframe.onload = () => {
+      setIframeLoaded(true);
+    };
+  }, []);
+
   return (
     <div className='flex flex-col items-center mx-4 mb-8 justify-center w-full'>
       <div className='w-full h-[500px] mb-8 p-8 transition-all duration-500'>
+        {!iframeLoaded && (
+          <div role="status" className="animate-pulse h-full">
+            <div className="h-full bg-gray-200 rounded dark:bg-gray-700"></div>
+            <span className="sr-only">Loading...</span>
+          </div>
+        )}
         <iframe
+          id='map-iframe'
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28030.572470427614!2d77.25948389834329!3d28.575120582814147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce391b053aeef%3A0x3c66da6bc8fccdde!2sNew%20Friends%20Colony%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1720722688360!5m2!1sen!2sin'
           width="100%"
           height="100%"
@@ -27,7 +43,6 @@ const Contact = () => {
           <button className='p-2 bg-[#3e3e42] text-white rounded hover:bg-[#f5bc52] hover:text-black' type='submit'>Submit</button>
         </form>
       </div>
-
     </div>
   );
 };

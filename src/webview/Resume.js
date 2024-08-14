@@ -4,6 +4,8 @@ import { GoDotFill } from "react-icons/go";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { IoIosDocument } from "react-icons/io";
+import { useSpring, animated } from '@react-spring/web';
+
 
 
 const education = [
@@ -48,11 +50,17 @@ const techStack = [
 ];
 
 const Resume = () => {
+  const slideInProps = useSpring({
+    from: { opacity: 0, transform: 'translateY(50px)' },
+    to: { opacity: 1, transform: 'translateY(0)' },
+    config: { tension: 200, friction: 20 },
+    delay: 200,
+});
   return (
-    <div className='mx-4 mt-6'>
+    <animated.div style={slideInProps} className='mx-4 mt-6'>
       <div className='bg-[#2a2a2a] p-8 rounded-lg shadow-gray-900 drop-shadow-lg hover:drop-shadow-2xl'>
         <div className='flex items-center gap-4 mb-8 text-xl'>
-          <div className='text-[#49494e]'><FaBook /></div>
+          <div className='text-[#FFCF75]'><FaBook /></div>
           <div className='font-semibold'>Education</div>
         </div>
         {education.map((edu, index) => (
@@ -69,7 +77,7 @@ const Resume = () => {
 
       <div className='bg-[#2a2a2a] p-8 rounded-lg shadow-gray-900 drop-shadow-lg hover:drop-shadow-2xl mt-4'>
         <div className='flex items-center gap-4 mb-8 text-xl'>
-          <div className='text-[#49494e]'><MdOutlineWorkOutline /></div>
+          <div className='text-[#FFCF75]'><MdOutlineWorkOutline /></div>
           <div className='font-semibold'>Work Experience</div>
         </div>
         {workExp.map((exp, index) => (
@@ -87,7 +95,7 @@ const Resume = () => {
 
       <div className='bg-[#2a2a2a] p-8 rounded-lg shadow-gray-900 drop-shadow-lg hover:drop-shadow-2xl my-4'>
         <div className='flex items-center gap-4 mb-8 text-xl'>
-          <div className='text-[#49494e]'><GrTechnology /></div>
+          <div className='text-[#FFCF75]'><GrTechnology /></div>
           <div className='font-semibold'>My Tech Stack</div>
         </div>
         <div>
@@ -117,7 +125,7 @@ const Resume = () => {
         </a>
       </div>
 
-    </div>
+    </animated.div>
   )
 }
 

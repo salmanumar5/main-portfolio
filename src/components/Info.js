@@ -1,23 +1,9 @@
 import React from 'react'
-import { FaPhoneAlt, FaEnvelope, FaInstagram, FaLinkedinIn, FaHome, FaGithub } from "react-icons/fa";
 import ProfileVid from '../webview/ProfileVid';
-// import { Link } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import { infoMenu, socialMedia } from '../util/Data';
 
 const Info = () => {
-
-    const infoMenu = [
-        { icon: <FaPhoneAlt />, title: "Phone No.", contact: "7088970160" },
-        { icon: <FaEnvelope />, title: "Email", contact: "umar.salman@example.com" },
-        { icon: <FaHome />, title: "Address", contact: "NFC, New Delhi, 110025" }
-
-    ];
-
-    const socialMedia = [
-        { icon: <FaGithub />, link: "#" },
-        { icon: <FaInstagram />, link: "#" },
-        { icon: <FaLinkedinIn />, link: "#" },
-    ];
 
     return (
         <div className='w-80 md:w-96 h-[70vh] md:h-[70vh] flex flex-col justify-between bg-[#252526] shadow-lg rounded-2xl mx-auto mt-6'>
@@ -51,7 +37,9 @@ const Info = () => {
 
             <div className='hidden md:flex gap-5 justify-center mb-5'>
                 {socialMedia.map((item) => (
-                    <div className='text-white'>{item.icon}</div>
+                    <Link to={item.link}>
+                        <div className='text-white'>{item.icon}</div>
+                    </Link>
                 ))}
             </div>
         </div>
