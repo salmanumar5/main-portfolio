@@ -39,18 +39,13 @@ export const skillMenu = [
 ];
 
 export const projectList = [
-    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "E-Commerce Website", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "URL Shortener", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Gym Management System", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Finance Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Portfolio Template", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' },
-    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.png?alt=media&token=553bbabc-7dda-4521-9043-83c0a46ca9b1' }
+    { title: "Employee Tracker", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2FemployeeTracker.png?alt=media&token=b5970a7f-7a6e-4e1b-afec-90c2c565f172' },
+    { title: "E-Commerce Website", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2FframedLama.png?alt=media&token=4038da96-6ff1-442e-b77a-e8b93f6e8b5d' },
+    { title: "URL Shortener", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2FurlShortener.png?alt=media&token=c693171f-59bf-4f59-bd0e-623bb2456b4b' },
+    { title: "Gym Management System", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2Fss1.jpg?alt=media&token=9957e8e2-927e-489f-b55e-c83f4611359f' },
+    { title: "Portfolio Template #1", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2FvirtualWeb.png?alt=media&token=0355285c-ac75-4bda-9d65-3eadd2033d22' },
+    { title: "Portfolio Template #2", img: 'https://firebasestorage.googleapis.com/v0/b/umarsalman-portfolio.appspot.com/o/project%20images%2FphotographerPort.png?alt=media&token=2ee66db0-9289-474b-b316-a8463b5c5401' },
+    
   ];
 
 export const testimonialsData = [
